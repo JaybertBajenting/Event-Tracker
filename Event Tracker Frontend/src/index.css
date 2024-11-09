@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inter-Regular"),
+    url("/public/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Inter-Bold"),
+    url("/public/fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+.customized_scrollbar {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.customized_scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.customized_scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  height: 50%;
+}
+.customized_scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.customized_scrollbar::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.customized_scrollbar::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 20px;
+}
+
+.dashed-border {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='15' ry='15' stroke='%23333' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='20' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 15px;
+}
+

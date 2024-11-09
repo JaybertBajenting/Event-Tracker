@@ -1,0 +1,17 @@
+<svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="bxl:facebook-circle" filter="url(#filter0_d_884_38)">
+<path id="Vector" d="M19.5625 3.26318C10.5611 3.26318 3.26318 10.5611 3.26318 19.5625C3.26318 27.6966 9.22279 34.4387 17.0162 35.6661V24.275H12.8758V19.5625H17.0162V15.9714C17.0162 11.8831 19.45 9.62868 23.1715 9.62868C24.9548 9.62868 26.8229 9.94655 26.8229 9.94655V13.9549H24.7624C22.7411 13.9549 22.1086 15.2134 22.1086 16.5028V19.5592H26.6256L25.9035 24.2718H22.1086V35.6628C29.9021 34.4419 35.8617 27.6982 35.8617 19.5625C35.8617 10.5611 28.5638 3.26318 19.5625 3.26318Z" fill="#A83332" fill-opacity="0.9"/>
+</g>
+<defs>
+<filter id="filter0_d_884_38" x="-2.60814" y="0" width="44.3384" height="44.3384" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2.60814"/>
+<feGaussianBlur stdDeviation="1.30407"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_884_38"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_884_38" result="shape"/>
+</filter>
+</defs>
+</svg>

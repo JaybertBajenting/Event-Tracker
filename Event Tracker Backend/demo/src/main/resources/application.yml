@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/appdev # JDBC URL for your MySQL database
+    username: root                 # Database username
+    password:                    # Database password
+    driver-class-name: com.mysql.cj.jdbc.Driver  # JDBC driver class name
+
+  jpa:
+    hibernate:
+      ddl-auto: update    # Automatic table creation/update strategy (e.g., create, update, none)
+    show-sql: true        # Show SQL statements in logs for debugging (set to false in production)
+server:
+  port: 8080
+
+
+
